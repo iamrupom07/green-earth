@@ -74,6 +74,70 @@
     </div>
   </section>
 
+
+  <!-- About Campaign -->
+  <section id="about" class="bg-[#e6f5ec]">
+    <div class="mx-auto max-w-7xl px-3 sm:px-6 lg:px-8">
+      <div class="py-12 sm:py-16">
+        <h2 class="text-center text-2xl sm:text-3xl font-extrabold mb-8">About the Campaign</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center about-img">
+          <img alt="young rubber plant" class="w-full rounded-2xl " src="./assets/about.png">
+          <div>
+            <p class="text-slate-700">Green Earth is a global tree plantation initiative dedicated to fighting climate change. Since our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, you help restore forests, create habitats for wildlife, and combat global warming.</p>
+            <ul class="mt-4 list-disc pl-5 text-slate-700 space-y-1">
+              <li>Restoration of natural habitats</li>
+              <li>Improvement of air quality</li>
+              <li>Support for local communities</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact -->
+  <section id="impact" class="py-12 sm:py-16">
+    <div class="mx-auto max-w-7xl px-3 sm:px-6 lg:px-8">
+      <h2 class="text-center text-2xl sm:text-3xl font-extrabold">Our Impact</h2>
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="card p-6 text-center">
+          <div class="text-2xl font-extrabold text-[color:var(--brand)]">500K+</div>
+          <div class="mt-1 text-sm text-slate-600">Trees Planted</div>
+        </div>
+        <div class="card p-6 text-center">
+          <div class="text-2xl font-extrabold text-[color:var(--brand)]">120+</div>
+          <div class="mt-1 text-sm text-slate-600">Communities Involved</div>
+        </div>
+        <div class="card p-6 text-center">
+          <div class="text-2xl font-extrabold text-[color:var(--brand)]">30+</div>
+          <div class="mt-1 text-sm text-slate-600">Countries Reached</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate Form -->
+  <section id="donate" class="bg-[color:var(--brand)] text-white">
+    <div class="mx-auto max-w-7xl px-3 sm:px-6 lg:px-8">
+      <div class="py-12 sm:py-16 grid place-items-center">
+        <h2 class="text-2xl sm:text-3xl font-extrabold mb-6">Plant a Tree Today</h2>
+        <form onsubmit="event.preventDefault(); alert('Thank you for supporting Green Earth!');" class="w-full max-w-lg rounded-2xl p-5 sm:p-6" style="backdrop-filter:blur(6px);background:rgba(255,255,255,.65);">
+          <div class="space-y-3">
+            <input required type="text" placeholder="Your Name" class="w-full rounded-xl border border-white/60 bg-white/90 px-4 py-2.5 text-slate-800 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-yellow-300" />
+            <input required type="email" placeholder="Your Email Address" class="w-full rounded-xl border border-white/60 bg-white/90 px-4 py-2.5 text-slate-800 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-yellow-300" />
+            <select class="w-full rounded-xl border border-white/60 bg-white/90 px-4 py-2.5 text-slate-800 focus:outline-none focus:ring-2 focus:ring-yellow-300">
+              <option>Number of Trees</option>
+              <option>1 - $5</option>
+              <option>3 - $10</option>
+              <option>5 - $15</option>
+              <option>10 - $20</option>
+            </select>
+            <button class="btn w-full" style="background:var(--accent);color:#0f172a">Donate Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
  
 
   <!-- Footer -->
