@@ -1,7 +1,3 @@
-# 📘 JavaScript ES6 Quick Guide
-
-This guide answers some common JavaScript ES6 questions in a simple way 🚀  
-
 ---
 
 ## 1️⃣ What is the difference between `var`, `let`, and `const`?
