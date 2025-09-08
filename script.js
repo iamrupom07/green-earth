@@ -253,7 +253,7 @@ function decreaseQty(id){ const it = state.cart[id]; if(!it) return; it.qty -= 1
 function renderCart(){
   const entries = Object.values(state.cart);
   els.cartList.innerHTML = entries.map(it=> `
-    <li class="flex items-center justify-between gap-3 py-2">
+    <li class="flex items-center justify-between gap-3 py-2 px-4 rounded-2xl bg-[#CFF0DC] my-2">
       <div>
         <div class="font-medium">${it.name}</div>
         <div class="text-xs text-slate-500">${money(it.price)} × ${it.qty}</div>
